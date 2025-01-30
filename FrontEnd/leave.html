@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styleLeave.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	
+	<title>Leave Form</title>
+</head>
+<body>
+	<section class="sect1">
+				<a href="main.html">Return</a>
+	</section>
+
+
+
+
+	<section class="sect2">
+	<div class="wrapper">
+	<form id="leaveForm" action="http://localhost/Project/BackEnd/leave.php" method="post">
+		<h2>Leave Request Form</h2>
+		<div class="forHeight">
+			<label for="empid">Employee id</label>
+			<div class="newLine">
+				<input type="text" id="starDate" name="empid" required>
+			</div>
+		</div>
+		<div class="forHeight">
+			<label for="startDate">Start Date</label>
+			<div class="newLine">
+				<input type="date" id="starDate" name="starDate" required>
+			</div>
+		</div>
+
+		<div class="forHeight">
+			<label for="endDate">End Date</label>
+			<div class="newLine">
+				<input type="date" id="endDate" name="endDate" required>
+			</div>
+		</div>
+
+		<div class="forHeight">
+			<div class="newLine">
+			<label for="reason">Reason</label>
+			<select id="reasons" name="reason">
+				<option value="medAppointment">Medical Appointment</option>
+				<option value="Illness">Injury or Illness</option>
+				<optgroup label="Emergencies">
+					<option>Home Emergencies</option>
+					<option>Family Emergencies</option>
+				</optgroup>
+				<option value="religious">Religious</option>
+				<option value="rest">Take a rest</option>
+				<option value="Other" selected>Other</option>
+			</select>
+			</div>
+		</div>
+
+		<div class="forHeight">
+			<label for="description">Description of Reason</label>
+			<div class="newLine">
+			<textarea type="text" id="description" name="description" rows="7" cols="40"></textarea>
+			</div>
+		</div>
+		<div class="btn">
+					<input type="submit" value="Submit" id="submit">
+	    </div>
+			
+
+	</form>
+	
+    </div>
+	</section>
+	<footer> &copy; 2024 Alpha. All rights reserved.</footer>
+	
+</body>
+
+</html>

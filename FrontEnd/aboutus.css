@@ -1,0 +1,83 @@
+
+
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background: url("Alpha.png");
+  
+  color: aliceblue;
+  margin-left: 30px;
+  margin-top: 0;
+}
+.al{
+  bottom: 0;
+  align-self: center;
+ 
+  background-color: rgb(5, 5, 5);
+  display: inline-block;
+}
+.about{
+  width:1322px;
+  background: url("new");
+  background:transparent;
+  color: rgb(243, 226, 226);
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  padding: 3px 3px;
+  backdrop-filter: blur(60px);
+  
+}
+footer{
+  background:transparent;
+  text-align: center;
+  color:aliceblue;
+padding-top: 20px;
+  bottom:0;
+
+  width:100%;
+  left: 0;
+
+}
+.email{
+  color:aqua;
+
+  
+}
+.allo{
+  padding:5px 5px;
+  right:0;
+  
+}
+.sect1{
+  margin-top: 15px;
+  margin-left: 10px;
+  
+}
+.sect1 a{
+
+  text-decoration: none;
+  background:transparent;
+  backdrop-filter: blur(10px);
+  color:rgb(255, 255, 255);
+  border: none;
+  border-radius: 35px;
+  padding:10px;
+  background-position: fixed;
+  font-weight: bold;
+  font-size: 14px;
+  
+  transition: backdrop-filter 0.3s, background-color 0.3s, color 0.3s, padding 0.1s;
+  
+  border:1px solid;
+
+
+}
+.sect1 a:hover{
+  cursor: pointer;
+  padding:8px;
+  background-color: black;
+  color:gold;
+  
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styleLogin.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+</head>
+<body id="body">
+	
+		<div class="wrapper-class">
+			
+			<form  name="form 1" action="http://localhost/project/backend/login.php" method="post">
+				<h2>Log in to EMPS</h2>
+				
+				<div class="user-password">
+					<input type="text" placeholder="Username" id="username" name="username" required>
+					<i class='bx bxs-user'></i>
+				</div>
+
+				<div class="user-password">
+					<input type="password"  placeholder="Password" id="password" name="password" required>
+					<i class='bx bxs-lock'></i>
+				</div>
+
+				<div class="remember-forgot">
+					<label for="remember"><input type="checkbox" name="remember" id="remember">Remember me</label>
+					<a href="#">Forgot password?</a>
+				</div>
+				<button type="submit" class="btn" name="btn" id="btn">Log in</button>
+				<div class="newAcc">
+					<a href="register.html" class="ceo"><b>Create new Account</b></a><br><br><br>
+				<a href="loginceo.html" class="ceo"><b>Login as a CEO</b></a>
+				</div>
+				<section class="ret">
+					<a href="Index.html">Return</a>
+				</section>
+			</form>
+		</div>
+</body>
+<script>
+	function validate(){
+		var password=document.getElementById("password").value;;
+		var username=document.getElementById("username").value;
+	if(password.length<8||password.length>32)
+		{
+           alert("password must be between 8 and 32 charactres");
+           return false;
+		}	
+		return true;
+		}
+</script>
+</html>

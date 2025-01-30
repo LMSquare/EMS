@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reqvac.css"> <!-- Import the CSS file -->
+  <title>Vacancy Requests</title>
+</head>
+<body>
+  <section class="sect1">
+    <a href="ceo.html">Return</a>
+</section>
+  
+  <h1>Vacancy Requests</h1>
+  <table>
+    <tr>
+      <th>Employee Name</th>
+      <th>Position</th>
+      <th>Position applied to</th>
+      <th>Date Applied</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+    <tr>
+      <td>Mahider yizengaw</td>
+      <td>Assistant manager</td>
+      <td>HR manager</td>
+      <td>2023-08-11</td>
+      <td>Pending</td>
+      <td><button onclick="approveRequest(this)">Approve</button><button onclick="disapproveRequest(this)">Disapprove</button></td>
+    </tr>
+    <tr>
+      <td>Mahider Jemere</td>
+      <td>Security</td>
+      <td>Head of security</td>
+      <td>2023-08-01</td>
+      <td>Pending</td>
+      <td><button onclick="approveRequest(this)">Approve</button><button onclick="disapproveRequest(this)">Disapprove</td>
+    </tr>
+    <!-- More rows can be added here -->
+  </table>
+  <footer>
+    &copy; 2024 Alpha. All rights reserved.
+  </footer>
+  <script src="reqvac.js"></script> <!-- Import the JavaScript file -->
+
+</body>
+</html>

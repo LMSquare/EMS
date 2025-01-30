@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*box-sizing: border-box;*/
+	font-family: "Poppins", sans-serif;
+  }
+  
+  body{
+	  height:100vh;
+	  background: url("—Pngtree—silhouette\ of\ business\ leaders\ giving_3427490.jpg");
+	  background-size: cover;
+	  background-position: center;
+	  background-attachment: scroll;
+		padding-bottom: 150px;
+    
+  }
+  
+  
+  
+  .sub1{
+	  display:flex;
+	  justify-content: space-between;
+	  padding-top: 90px;
+	  padding-left: 20px;
+	  
+	  width:98%;
+	  /*background-color: yellow;*/
+  }
+  
+  .h2.para1{
+	  color: black;
+	  padding-top: 15px;
+  }
+  
+  .first{
+		  width:30%;
+		  
+		  border-radius: 25px;
+		  
+		  padding-top:3px;
+			padding:10px;
+	      z-index: 1;
+		  background:transparent;
+		  backdrop-filter: blur(100px);
+			opacity: 0;
+			transform: translateY(30px);
+			animation: moveup 1s linear forwards;
+  
+  }
+	@keyframes moveup{
+		100%{
+opacity: 1;
+transform: translateY(0px);
+
+		}
+	}
+  
+  .advert{
+	  border-style: solid;
+	  border-color: rgb(255,255,255,.2);
+	  right:1%;
+	  top:45%;
+	  margin-top: 5%;
+	  /*padding-top: 40px;*/
+	  /*padding-right: 20px ;*/
+	  height:230px;
+  }
+  
+  .adHead{
+	  padding-top: -20px;
+  }
+  
+  .sub2{
+	  
+	  display:flex;
+	  justify-content:end;
+	  top:570px;
+	  margin-bottom: 4%;
+	  padding-right:10%;
+	  
+	  /*background-color: yellow;*/
+  }
+  
+  .Hr{
+		  width:500px;
+		  padding:20px;
+		  border-radius: 25px;
+		  border:solid,rgba(30, 30, 30, 0.2);
+		  padding-left:10px;
+		  padding-top: 10px;
+		  background:transparent;
+		  backdrop-filter: blur(100px);
+      opacity: 0;
+			transform: translateX(30px);
+			animation: moveLeft 1s linear forwards;
+  }
+	@keyframes moveLeft{
+		100%{
+opacity: 1;
+transform: translateX(0px);
+
+		}
+	}
+  
+  .button{
+	  top:110%;
+	  left: 50%;
+  }
+  
+  .btn{
+	  font-size: 14px;
+	  width:150px;
+	  border-radius: 10px;
+  }
+  .btn:hover{
+	  color:white;
+	  background-color: mediumaquamarine;
+	  cursor: pointer;
+  
+  }
+  .container{
+	  padding-top: 3%;
+	  background-color: rgb(41, 41, 55);
+	  display: grid;
+	  grid-template-columns: 2fr 1fr 1fr 1fr;
+	  margin-bottom: 1px;
+	  padding-bottom: 2%;
+	  vertical-align: top;
+		color:aliceblue;
+  }
+  .footer-about{
+		width: 65%;
+		padding-right: 30%;
+		padding-left: 5%;
+		
+		
+  }
+  .copyright{
+	   
+	  text-align: center;
+	  padding-top: 2%;
+	  padding-bottom: 2%;
+	  background-color: rgb(41, 41, 55);
+	  color:aliceblue;
+  }
+  .quick-links a{
+	  color: aliceblue;
+  }
+	.quick-links a:hover{
+		color: rgb(255, 215, 162);
+	}
+  .icon-div{
+	  display: flex;
+  }
+  .icons{
+	  padding-top: 3%;
+	  list-style: none;
+  }
+  .get-in-touch{
+	  padding-bottom:2%;
+	 
+  }
+	
+	footer{
+		
+	}

@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.notification-checkbox {
+  display: none; /* Hide the checkbox */
+}
+
+.notification-label {
+  padding: 10px;
+  background-color: #337ab7;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+/* Change label appearance when checkbox is checked */
+.notification-checkbox:checked + .notification-label {
+  background-color: #5cb85c;
+}
+
+/* Provide a subtle animation when the notification appears */
+.notification-checkbox:checked + .notification-label {
+  transform: scale(1.05);
+}

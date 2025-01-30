@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+    
+}
+	.sect1{
+        margin-top: 15px;
+        margin-left: 10px;
+      }
+      .sect1 a{
+      
+          text-decoration: none;
+          background:transparent;
+          backdrop-filter: blur(10px);
+          color:silver;
+          border: none;
+          border-radius: 35px;
+          padding:10px;
+          background-position: fixed;
+          font-weight: bold;
+          font-size: 14px;
+        
+          transition: backdrop-filter 0.3s, background-color 0.3s, color 0.3s, padding 0.1s;
+          
+          border:1px solid;
+      
+      
+      }
+      .sect1 a:hover{
+          cursor: pointer;
+          padding:8px;
+          background-color: black;
+          color:gold;
+          
+      }
+  
+
+body{
+    background:url('ppo.jpg') no-repeat;
+    background-size: cover;   
+}
+.wrapper1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+    background-color: white;
+    background: transparent;
+}
+
+.wrapper2 {
+    margin: 15px 10px 20px 30px;
+    width: 500px;
+
+    background: transparent;
+}
+.wrapper3 {
+    margin: 15px 10px 20px 30px;
+    width: 500px;
+    background-color:white;
+    float:right;
+  
+    background: transparent;
+}
+.attachment-comments {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    background: transparent;
+}
+
+
+textarea {
+    width: 75%;
+    height: 40px;
+    background-color: rgb(173, 204, 243);
+}
+
+
+.copyright{
+     
+    text-align: center;
+    background-color: #555;
+    padding:20px;
+  
+}
+.quick-links a{
+    color: black;
+}
+.icon-div{
+    display: flex;
+}
+.icons{
+    padding-top: 3%;
+    list-style: none;
+}
+.get-in-touch{
+    padding-bottom:2%;
+   
+}
+.pic img{
+    
+    border-radius: 20px;
+}
+.calander{
+    align-content: center;
+}

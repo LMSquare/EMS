@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="postannouncement.css"> <!-- Import the CSS file -->
+  <title>News Page</title>
+</head>
+<body>
+  <section class="sect1">
+    <a href="ceo.html">Return</a>
+</section>
+  
+  <main> 
+    
+    
+    <section id="post-news" class="section">
+      <h2>Post News</h2>
+      <div class="form">
+      <form id="messageForm">
+        <label for="news-title">Title:</label>
+        <input type="text" id="news-title" name="news-title">
+        <label for="news-content">Content:</label>
+        <textarea id="news-content" name="news-content" rows="4"></textarea>
+        <input class ="ku" type="submit" value="Post" onclick="post()" >
+      </form>
+    </div>
+    </section>
+  </main>
+  <script>
+    
+    function post(){
+      const title=document.getElementById('news-title').value;
+      const textarea=document.getElementById('news-content').value;
+
+      if(title === ''){
+        alert("title can not be blank");
+      }
+      else if(textarea===''){
+        alert("You have to write the content");
+      }
+      else
+      alert("Posted Successfully!");
+    }
+  </script>
+
+  <footer class="footer">
+    
+    <p>&copy; 2024 Alpha. All rights reserved.</p>
+  </footer>
+</body>
+</html>

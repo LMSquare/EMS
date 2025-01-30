@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="vacany.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<title>Vacancy Form</title>
+</head>
+<body>
+	<section class="sect1">
+	<a href="main.html">Return</a>
+	</section>
+
+
+
+
+	<section class="sect2">
+	<div class="wrapper">
+	<form id="vacancyForm">
+		<h2>Vacancy Request Form</h2>
+
+		<div class="forHeight">
+			<label for="startDate">Date</label>
+			<div class="newLine">
+				<input type="date" id="starDate" name="starDate" required>
+			</div>
+		</div>
+    <div class="forHeight">
+      <div class="trial">
+        <label for="username">Full name</label>
+        </div>
+      <div class="trial">
+        <input type="text" name="username" id="username" required>
+        </div>
+    </div>
+		<div class="forHeight">
+      <div class="trial">
+        <label for="position">Position</label>
+        </div>
+      <div class="trial">
+        <input type="text" name="position" id="position" required>
+        </div>
+    </div>
+		<div class="forHeight">
+      <div class="trial">
+        <label for="positiona">Position your applying</label>
+        </div>
+      <div class="trial">
+        <input type="text" name="positiona" id="positiona" required>
+        </div>
+    </div>
+
+		<div class="forHeight">
+			<label for="description">Reason (not required)</label>
+			<div class="newLine">
+			<textarea id="description" name="description" rows="7" cols="40"></textarea>
+			</div>
+		</div>
+		<div class="btn">
+					<input type="submit" value="Submit" id="submit" onclick="sent()">
+	    </div>
+		
+
+	</form>
+    </div>
+	</section>
+</div>
+  <footer>
+		<p>&copy; 2024 Alpha. All rights reserved.</p>
+	</footer>
+          <script>
+						function sent(){
+							var position=document.getElementById('position').value;
+							var positiona=document.getElementById('positiona').value;
+							var username=document.getElementById('username').value;
+							if(position===''||positiona===''||username===''){
+								alert("Please fill out the form");}
+								else
+							alert("Submitted success fully");
+							}
+					</script>
+      
+</body>
+</html>

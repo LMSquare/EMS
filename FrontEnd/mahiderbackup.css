@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+  
+}
+
+        body {
+            position: absolute;
+            background-color: white;
+            
+        }
+        
+        .headercontainer {
+            position:fixed;
+            background:  #555;
+            justify-items: start;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            border-style:groove;
+            
+        }
+        
+        .logo a {
+            display: flex;
+            background-color: rgb(4, 4, 4);
+            border-radius: 15px;
+            justify-content: space-between;
+            margin: 5px;
+            padding: 15x;
+            color: white;
+            
+        }
+        
+        .logo a:hover {
+            background-color: #222121;
+        }
+        
+        .alpha {
+            color: rgba(32, 11, 3, 0.878);
+            font-size: 60px;
+            -webkit-text-stroke-color: rgb(246, 245, 242);
+            -webkit-text-stroke-width: 2px;
+        }
+        
+        .logotext {
+            color: goldenrod;
+            -webkit-text-stroke-color: rgb(32, 199, 32);
+            -webkit-text-stroke-width: 1px;
+        }
+        
+        .headerlinksflex {
+            display: flex;
+            justify-items: center;
+            gap: 10px;
+        }
+        
+        .headercontainer a{
+            color: beige;
+            padding: 10px;
+            font-weight: 700;
+        }
+        
+        .headercontainer a:hover {
+            background-color:  #222121;
+            border-radius: 20px;
+        }
+        
+        #welcomecontainer {
+            margin-top: 7%;
+            padding: 10px;
+            background-image: url("https://img.freepik.com/free-photo/human-resources-concept-with-people_23-2150389123.jpg?t=st=1705222908~exp=1705223508~hmac=bc3b92726d6544e535e479705c2a6db950d8e6b6366f0e7b8aae49cd5bd84ee2");
+            color: rgb(19, 18, 19);
+            border-radius: 45px;
+            background-origin: border-box;
+            align-content: center;
+            text-align: center;
+            min-height: 100%;
+            
+        }
+        
+        .aboutcontainer {
+            display: grid;
+            margin: 5px;
+            padding: 10px;
+            grid-template-columns: 1fr 1fr;
+            gap: 1px;
+            background-color: white;
+            border-radius: 20px;
+            color: black;
+            font-weight: 500;
+            justify-content: center;
+            align-items: center;
+            right: 50%;
+            margin: 10px;
+            padding: 10px;
+            
+        }
+        
+        img {
+            max-width: 95%;
+            max-height: 95%;
+            border-radius: 50px;
+            padding: 2%;
+        }
+        
+        button {
+            display: flex;
+            margin-top: 0px;
+            margin-left: 10px;
+            padding: 25px;
+            background-color: black;
+            border-radius: 25px;
+            color: white;
+            justify-content: center;
+        }
+        
+        .registerbutton {
+            display: flex;
+            padding: 10px;
+            margin: 10px;
+            justify-items: center;
+            align-items: center;
+            max-height: 80px;
+        }
+        
+        .registerbutton {
+            padding: 20px;
+        }
+        
+        button:hover {
+            background-color:  #222121;
+        }
+        
+        .lastcontainertext {
+            padding: 10px;
+            margin: 10px;
+            padding: 10px;
+            color: black;
+            background-color: white;
+            border-radius: 10px;
+            font-weight: 500;
+            display: grid;
+            align-items: center;
+        }
+        
+        .lastgrid {
+            display: grid;
+            margin: 5px;
+            grid-template-columns: 1fr 1fr;
+            background-color: white;
+            border-radius: 20px;
+        }
+        
+        .lastcontainertext p {
+            width: 60%;
+            height: 10%;
+        }
+        .container{
+            background-color: #555;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            justify-content: space-between;
+            align-items: end;
+            margin-bottom: 1px;
+            padding-bottom: 2%;
+        }
+        .footer-about{
+              width: 65%;
+              padding-right: 30%;
+              padding-left: 5%;
+              padding-top: 3%;
+              
+        }
+        .copyright{
+             
+            text-align: center;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            background-color: #555;
+        }
+        .quick-links a{
+            color: black;
+        }
+        .icon-div{
+            display: flex;
+        }
+        .icons{
+            padding-top: 3%;
+            list-style: none;
+        }
+        .get-in-touch{
+            padding-bottom:2%;
+           
+        }
